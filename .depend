@@ -1,0 +1,9 @@
+engine.o: src/Engine/engine.cpp
+expression.o: src/Engine/Math/expression.cpp
+main.o: src/main.cpp
+-Wall
+-g
+-MM
+src/Engine/engine.cpp
+src/Engine/Math/expression.cpp
+src/main.cpp
